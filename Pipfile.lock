@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "796b667603281ca7abf4f50d45388056e27e2a85a6da127d869097b526710675"
+            "sha256": "9889d57a30d10dc62a3b62e28083651701d90ba157556592d5b378b2715a77ba"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -358,6 +358,10 @@
             ],
             "index": "pypi",
             "version": "==1.12.1"
+        },
+        "uboto3": {
+            "editable": true,
+            "path": "."
         },
         "urllib3": {
             "hashes": [
