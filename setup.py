@@ -11,7 +11,7 @@ setuptools.setup(
     description="JSON centered wrapper for boto3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/sladkovm/uboto3",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
