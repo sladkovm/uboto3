@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/sladkovm/uboto3",
-    packages=['uboto3'],
+    py_modules=['uboto3'],
     install_requires=['boto3'],
     classifiers=[
         "Programming Language :: Python :: 3",
