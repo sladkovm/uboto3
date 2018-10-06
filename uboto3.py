@@ -26,6 +26,7 @@ class UBoto3():
 
         if kwargs.get("Prefix"):
             Key = "{}/{}".format(kwargs.get("Prefix"), Key)
+            kwargs.pop("Prefix")
 
         try:
             r = self.client.head_object(Bucket=self.bucket, Key=Key, **kwargs)
