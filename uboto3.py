@@ -24,6 +24,9 @@ class UBoto3():
     def head_object(self, Key, **kwargs):
         """list metadata of the object"""
 
+        if kwargs.get("Prefix"):
+            Key = "{}/{}".format(kwargs.get("Prefix"), Key)
+
         try:
             r = self.client.head_object(Bucket=self.bucket, Key=Key, **kwargs)
         except self.client.exceptions.ClientError:
